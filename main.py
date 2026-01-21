@@ -10,5 +10,9 @@ elif operacja == '-':
 elif operacja == '*':
     print ( f'{a} * {b} = {a*b}')
 elif operacja == '/':
-    print ( f'{a} / {b} = {a/b}')
+    if(b != 0):
+        print ( f'{a} / {b} = {a/b}')
+    else:
+        print ("błąd w działaniu")
+
 
