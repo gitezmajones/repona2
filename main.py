@@ -11,9 +11,8 @@ elif operacja == '*':
     print ( f'{a} * {b} = {a*b}')
 elif operacja == '/':
     if(b != 0):
-        print(f'{a} / {b} = {a/b}')
+        print ( f'{a} / {b} = {a/b}')
     else:
-        print("blad")
+        print ("błąd w działaniu")
 
-    
 
