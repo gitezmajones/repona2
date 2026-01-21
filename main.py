@@ -1,3 +1,5 @@
+print("to jest kalkulator")
+
 a = float(input("podaj A: "))
 b = float(input("podaj B: "))
 operacja = input("podaj operacje: ")
